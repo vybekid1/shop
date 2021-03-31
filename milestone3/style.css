@@ -1,0 +1,241 @@
+body{
+    align-items: center;
+    background-color: rgb(250, 218, 234);
+}
+
+
+   a{
+       text-decoration:none;
+       font-size: 2rem;
+       font-weight: bold;
+   }
+   img{
+       border-radius: 5px;
+   }
+   #navbar {
+    background-color: pink;
+    color: black;
+    width: 100%;
+    flex-direction: row;
+    line-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul .icon{
+    display: block;
+    text-align:right;
+}
+main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+}
+footer{
+    text-align: center;
+    color: rgb(0, 71, 151);
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    display: block;
+}
+I{
+    font-size: 2rem;
+}
+a{
+    color: rgb(28, 85, 151);
+    font-size: medium;
+}
+a[href="https://instagram.com/vybekid1"]:hover{
+    color: rgb(226, 21, 72);
+}
+a[href="https://facebook.com/vybekid1"]:hover{
+    color: rgb(0, 38, 255);
+}
+a[href="https://twitter.com/vybekid1"]:hover{
+    color: rgb(35, 130, 255);
+}
+[href="#"]:hover{
+    color: rgb(35, 130, 255);
+}
+a[href="mailto:vybekid1@gmail.com"]:hover{
+    color: rgb(5, 69, 151);
+}
+
+button{
+    padding:auto; 
+    border-radius : 6px ;
+    border :2px solid #1d0052;
+    background: none;
+}
+
+.jumbotron input{
+    padding:auto; 
+    border-radius : 6px ;
+    border :4px solid #f81285;
+    background: rgb(216, 215, 215);
+    color: rgb(255, 0, 212);
+    height: 3rem;
+    display: inline;
+}
+#name{
+    padding:auto; 
+    border-radius : 6px ;
+    border :2px solid #535c57;
+    background: none;
+    text-align: left;
+}
+.jumbotron {
+    color: rgb(243, 2, 231);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url("2intro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+}
+u{
+    color:rgb(255, 0, 179);
+}
+#navbar {
+    background-color: pink;
+    color: black;
+    width: 100%;
+    flex-direction: row;
+    line-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.list-unstyled {
+    list-style-type: none;}
+.bg-dark {
+    color: black;
+    align-items: baseline;
+    text-align:center;
+
+}
+.jumbotron h1{
+    text-align: center;
+    font-style:initial;
+    font-weight: bold;
+    font-stretch: expanded;
+    color: rgb(241, 32, 137);
+}
+.search {
+    text-align: center;
+    color: white;
+    font-style: normal;
+}
+.more-items{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 200%;
+    text-decoration: underline;
+}   
+.jumbotron form {
+    margin-left: 50%;
+}
+.shoping-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(245, 245, 245);
+    align-content: flex-start;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding: 10px;   
+}
+.highlight-img {
+    border-bottom: 1px ;
+    background-color: white;
+    border-color: teal;
+    
+}
+.highlight-description {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border-bottom: 0.5px dotted;
+    color: black;
+  }
+.container {
+    background-color: white;
+}
+.shop-more {
+    color: black;
+    text-align: center;
+}
+.product-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(245, 245, 245);
+    align-content: flex-start;
+    border-color: rgb(206, 153, 147);
+
+}
+.product {
+    background-color:white;
+    margin: 0.5cm;
+}
+.product-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.img-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-detail a {
+    color: rgba(5, 94, 5, 0.836);
+    padding-top: 2cm;
+    padding-right: 2cm;
+    font-size: 100%;
+    text-decoration: underline;
+    
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2cm;
+    padding-left: 2cm;
+    border-bottom: 0.5px dotted;
+}
+.detailsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-colo{
+    color: orangered;
+    background-color: whitesmoke;
+}
+.buttons{
+    color: orangered;
+    background-color: white;
+    font-weight: bolder
+}
+.margin-cart{
+    margin: 0.1cm;
+}
+.allproductsincart{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
